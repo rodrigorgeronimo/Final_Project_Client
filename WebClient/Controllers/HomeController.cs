@@ -15,19 +15,21 @@ namespace WebClient.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Forum()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "List of Topics";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Test()
         {
             ViewData["Message"] = "Your contact page.";
 
             return View();
         }
+
+
 
         public IActionResult Error()
         {
